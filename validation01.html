@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation 01</title>
-    
+    <style>
+        .demo{
+            border: 0.5rem solid olive;
+            background-color: bisque;
+            width: 300px;
+            height: 250px;;
+           /* border: 1px solid black;*/
+        }
+        P{
+            margin: 1rem;
+            padding: 1rem;
+            /*border: 0.5rem solid olive;*/
+        }
+    </style>
 </head>
 <body>
     <script src="validation01.js"> </script>
     <div class="demo">
-        <h3>Phone Number Validation</h3>
+       <center> <h3>Phone Number Validation</h3></center>
         <p>
             Enter Phone Number:
            <input  name="num" id="num" ><br><br>
            <button onclick= validation()>Validate</button>
         </p>
        
-         <h3 id="msg"></h3>
+        <center> <h3 style="color: rgb(18, 18, 48);  background-color: rgb(20, 255, 79); max-width: 200px;" id="msg"></h3></center>
     </div>
     
 </body>
